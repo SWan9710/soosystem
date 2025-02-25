@@ -1,0 +1,12 @@
+.main-section2 {
+  background-color: #f3f3f3;
+  height: 80vh;
+}
+
+#main-section-title2 {
+  font-family: "Kopub", "맑은 고딕", "돋움", "Malgun Gothic", "Dotum", "Arial";
+  font-size: 2em;
+  margin-top: 3rem;
+  font-weight: bold;
+  padding: 3em 10em;
+}
