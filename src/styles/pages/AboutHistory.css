@@ -1,3 +1,48 @@
 .about {
-  height: 300vh;
+  height: 150vh;
+}
+
+.about-history-section {
+  border: 1px solid red;
+  height: 100vh;
+}
+
+.history-line-circle {
+  width: 130px;
+  height: 130px;
+  background-color: #005c9d;
+  margin: 2rem auto 0;
+  border-radius: 50%;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.history-line-circle > p {
+  color: white;
+  font-size: 1.2em;
+}
+
+#line {
+  display: inline-block;
+  width: 3px;
+  height: 100%;
+  background-color: #005c9d;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.history-item {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.history-item.animate {
+  opacity: 1;
+  transform: translateY(0);
 }

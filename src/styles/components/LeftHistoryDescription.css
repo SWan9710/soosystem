@@ -1,0 +1,43 @@
+.left-container {
+  position: relative;
+
+  width: 50%;
+  padding-top: 1em;
+  padding-right: 3em;
+}
+
+#left-container-title {
+  font-size: 2em;
+  text-align: end;
+  margin-bottom: 1rem;
+}
+
+#left-dot {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-color: #005c9d;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translate(50%, 150%);
+}
+
+.left-container-box {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2em;
+}
+
+.left-container-box > p {
+  margin-bottom: 1em;
+}
+.left-container-box > h4 {
+  margin-bottom: 1em;
+}
+
+.left-container-wrap {
+  display: flex;
+  justify-content: end;
+}

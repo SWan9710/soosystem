@@ -1,0 +1,43 @@
+.right-container {
+  justify-self: end;
+  position: relative;
+  width: 50%;
+  padding-top: 1em;
+  padding-left: 3em;
+}
+
+#right-container-title {
+  font-size: 2em;
+  text-align: start;
+  margin-bottom: 1rem;
+}
+
+#right-dot {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-color: #005c9d;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(-50%, 150%);
+}
+
+.right-container-box {
+  display: flex;
+  flex-direction: column;
+  padding-right: 2em;
+}
+
+.right-container-box > p {
+  margin-bottom: 1em;
+}
+.right-container-box > h4 {
+  margin-bottom: 1em;
+}
+
+.right-container-wrap {
+  display: flex;
+  justify-content: start;
+}
