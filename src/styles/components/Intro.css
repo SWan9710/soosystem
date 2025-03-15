@@ -1,10 +1,12 @@
 #title {
-  font-family: "Kopub", "맑은 고딕", "돋움", "Malgun Gothic", "Dotum", "Arial";
+  font-weight: 400;
   font-size: 3em;
-  color: #005c9d;
   text-align: center;
-  margin: 3rem 0;
-  font-weight: bold;
+  margin-top: 3rem;
+}
+
+#title-2 {
+  font-size: 2rem;
 }
 
 .description {

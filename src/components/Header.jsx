@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import "../styles/components/Header.css";
 import { Link, useLocation } from "react-router-dom";
+import logo from "../assets/수시스템2.png";
 
 const Header = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -30,10 +31,7 @@ const Header = () => {
     >
       {/* 로고 부분 */}
       <a className="logo" href="/">
-        <img
-          src="http://www.soosystem.com/theme/basic/img/logo.png"
-          alt="header-image"
-        />
+        <img src={logo} alt="header-image" />
       </a>
 
       {/* 네브바 부분 */}
@@ -44,7 +42,7 @@ const Header = () => {
         <ul className="menu-wrap">
           <li className="menu-title">
             <Link
-              to="/about/history"
+              to="/about/introduction"
               className={location.pathname.includes("/about") ? "active" : ""}
             >
               회사소개
@@ -57,16 +55,10 @@ const Header = () => {
                 <a href="/about/history">연혁</a>
               </li>
               <li>
-                <a href="/about/story">브랜드스토리</a>
-              </li>
-              <li>
                 <a href="/about/organization">조직도</a>
               </li>
               <li>
-                <a href="/about/certificate">보유인증서</a>
-              </li>
-              <li>
-                <a href="/about/factory_location">공장위치</a>
+                <a href="/about/certificate">인증현황</a>
               </li>
               <li>
                 <a href="/about/location">오시는길</a>
@@ -75,7 +67,18 @@ const Header = () => {
           </li>
 
           <li className="menu-title">
-            <a href="">철골플랜트</a>
+            <a href="">플랜트사업</a>
+            <ul
+              className="menu-list-wrap"
+              style={{ maxHeight: isMouseHovered ? "400px" : "0" }}
+            >
+              {" "}
+              <li>사업소개</li>
+              <li>실적</li>
+            </ul>
+          </li>
+          <li className="menu-title">
+            <a href="">금속가공사업</a>
             <ul
               className="menu-list-wrap"
               style={{ maxHeight: isMouseHovered ? "400px" : "0" }}
@@ -86,8 +89,9 @@ const Header = () => {
               <li>공정</li>
             </ul>
           </li>
+
           <li className="menu-title">
-            <a href="">금속교육재료사업</a>
+            <a href="">교육재료사업</a>
             <ul
               className="menu-list-wrap"
               style={{ maxHeight: isMouseHovered ? "400px" : "0" }}
@@ -95,65 +99,32 @@ const Header = () => {
               {" "}
               <li>사업소개</li>
               <li>실적</li>
-              <li>납품 실적 현황</li>
+              <li>납품현황</li>
             </ul>
           </li>
 
           <li className="menu-title">
             <a href="">기술교육원</a>
-            <ul
-              className="menu-list-wrap"
-              style={{ maxHeight: isMouseHovered ? "400px" : "0" }}
-            >
-              {" "}
-              <li>사업소개</li>
-              <li>실적</li>
-              <li>물류자동화</li>
-              <li>자재보관</li>
-            </ul>
           </li>
 
           <li className="menu-title">
-            <a href="">환경개선사업</a>
-            <ul
-              className="menu-list-wrap"
-              style={{ maxHeight: isMouseHovered ? "400px" : "0" }}
-            >
-              {" "}
-              <li>사업소개</li>
-              <li>실적</li>
-              <li>물류자동화</li>
-              <li>자재보관</li>
-            </ul>
-          </li>
-
-          <li className="menu-title">
-            <a href="">보유장비현황</a>
-            <ul
-              className="menu-list-wrap"
-              style={{ maxHeight: isMouseHovered ? "400px" : "0" }}
-            >
-              {" "}
-              <li>사업소개</li>
-              <li>실적</li>
-              <li>물류자동화</li>
-              <li>자재보관</li>
-            </ul>
+            <a href="">주요설비</a>
           </li>
 
           <li className="menu-title">
             <a href="">대리점</a>
+          </li>
+
+          <li className="menu-title">
+            <a href="">판매사업</a>
             <ul
               className="menu-list-wrap"
               style={{ maxHeight: isMouseHovered ? "400px" : "0" }}
             >
               {" "}
-              <li>충남 서천</li>
-              <li>동부 지사</li>
-              <li>서부 지사</li>
-              <li>본사</li>
-              <li>사천 공장</li>
-              <li>인천대리점</li>
+              <li>JQ레이저</li>
+              <li>이동대차</li>
+              <li>자재적재대</li>
             </ul>
           </li>
         </ul>

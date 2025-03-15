@@ -1,0 +1,25 @@
+body .footer-wrap {
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 100;
+  font-size: 13px;
+  width: 100%;
+  padding: 3rem 0;
+  min-height: 10vh;
+  background-color: #262626;
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+}
+
+.footer-description {
+  margin: 0 3rem;
+}
+
+.footer-description > span {
+  display: inline-block;
+  margin: 5px 0;
+}
+
+#contour {
+  margin: 0 10px;
+}

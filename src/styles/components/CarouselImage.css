@@ -1,0 +1,18 @@
+.carousel-container {
+  border: 1px solid red;
+  width: 500px;
+  display: flex;
+  overflow-x: scroll;
+  margin: 0 auto;
+}
+
+.carousel-container::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel-container > img {
+  width: 500px;
+  height: 500px;
+  object-fit: contain;
+  border: 1px solid blue;
+}
