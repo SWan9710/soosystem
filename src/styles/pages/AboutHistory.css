@@ -1,10 +1,6 @@
-.about {
-  height: 150vh;
-}
-
 .about-history-section {
-  border: 1px solid red;
-  height: 100vh;
+  position: relative;
+  margin-bottom: 1em;
 }
 
 .history-line-circle {
@@ -24,16 +20,6 @@
 .history-line-circle > p {
   color: white;
   font-size: 1.2em;
-}
-
-#line {
-  display: inline-block;
-  width: 3px;
-  height: 100%;
-  background-color: #005c9d;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 .history-item {

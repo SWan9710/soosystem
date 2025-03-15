@@ -4,12 +4,14 @@
   width: 50%;
   padding-top: 1em;
   padding-left: 3em;
+  border-left: 3px solid #005c9d;
+  transform: translateX(-1.5px);
 }
 
 #right-container-title {
   font-size: 2em;
   text-align: start;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 #right-dot {
@@ -21,7 +23,7 @@
   position: absolute;
   left: 0;
   top: 0;
-  transform: translate(-50%, 150%);
+  transform: translate(-9px, 150%);
 }
 
 .right-container-box {
@@ -35,6 +37,7 @@
 }
 .right-container-box > h4 {
   margin-bottom: 1em;
+  width: 100%;
 }
 
 .right-container-wrap {

@@ -2,11 +2,12 @@ import React from "react";
 
 import "../styles/components/LeftHistoryDescription.css";
 
-const LeftHistoryDescription = ({ title_year, month, description }) => {
+const LeftHistoryDescription = ({ title, month, description }) => {
   return (
     <div className="left-container">
       <span id="left-dot"></span>
-      <h3 id="left-container-title">{title_year}</h3>
+
+      <h1 id="left-container-title">{title}</h1>
 
       <div className="left-container-wrap">
         <div className="left-container-box">
