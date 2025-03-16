@@ -1,12 +1,12 @@
 import React, { useRef, useEffect, useState } from "react";
-import Header from "../components/Header";
-import BackgroundImage from "../components/BackgroundImage";
-import aboutImage from "../assets/고양이2.png";
-import useScrollTo from "../hooks/useScrollTo";
-import LeftHistoryDescription from "../components/LeftHistoryDescription";
-import RightHistoryDescription from "./../components/RightHistoryDescription";
-import Footer from "../components/Footer";
-import "../styles/pages/AboutHistory.css";
+import Header from "../../components/Header";
+import BackgroundImage from "../../components/BackgroundImage";
+import aboutImage from "../../assets/고양이2.png";
+import useScrollTo from "../../hooks/useScrollTo";
+import LeftHistoryDescription from "../../components/LeftHistoryDescription";
+import RightHistoryDescription from "../../components/RightHistoryDescription";
+import Footer from "../../components/Footer";
+import "../../styles/pages/About/AboutHistory.css";
 
 const AboutHistory = () => {
   const Title = "SOOSYSTEM";

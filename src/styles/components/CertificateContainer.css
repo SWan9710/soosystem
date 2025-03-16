@@ -1,0 +1,29 @@
+.certificate-wrap {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 1em;
+  width: 100%;
+}
+
+.certificate-box {
+  border: 1px solid red;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.certificate-box > img {
+  width: 300px;
+  object-fit: contain;
+  height: 350px;
+}
+
+.certificate-detail-title {
+  background-color: #005c9d;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: white;
+}

@@ -1,14 +1,16 @@
 import React from "react";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-import CEOImage from "../assets/고양이.png";
-import CEOSign from "../assets/고양이2.png";
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
+import CEOImage from "../../assets/고양이.png";
+import CEOSign from "../../assets/고양이2.png";
+import useScrollTop from "../../hooks/useScrollTop";
 
-import "../styles/pages/AboutIntroduction.css";
+import "../../styles/pages/About/AboutIntroduction.css";
 
 const AboutIntroduction = () => {
+  useScrollTop(0, 0);
   return (
-    <div>
+    <div className="introduction">
       <Header />
       <section className="introduction-section">
         <div className="section-description">

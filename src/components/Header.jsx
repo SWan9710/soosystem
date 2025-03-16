@@ -41,44 +41,42 @@ const Header = () => {
       >
         <ul className="menu-wrap">
           <li className="menu-title">
-            <Link
-              to="/about/introduction"
-              className={location.pathname.includes("/about") ? "active" : ""}
-            >
-              회사소개
-            </Link>
+            <Link to="/about/introduction">회사소개</Link>
             <ul
               className="menu-list-wrap"
               style={{ maxHeight: isMouseHovered ? "400px" : "0" }}
             >
               <li>
-                <a href="/about/history">연혁</a>
+                <Link to="/about/history">연혁</Link>
               </li>
               <li>
-                <a href="/about/organization">조직도</a>
+                <Link to="/about/organization">조직도</Link>
               </li>
               <li>
-                <a href="/about/certificate">인증현황</a>
+                <Link to="/about/certificate">인증현황</Link>
               </li>
               <li>
-                <a href="/about/location">오시는길</a>
+                <Link to="/about/location">오시는길</Link>
               </li>
             </ul>
           </li>
 
           <li className="menu-title">
-            <a href="">플랜트사업</a>
+            <Link to="/plant/introduction">플랜트사업</Link>
             <ul
               className="menu-list-wrap"
               style={{ maxHeight: isMouseHovered ? "400px" : "0" }}
             >
-              {" "}
-              <li>사업소개</li>
-              <li>실적</li>
+              <li>
+                <Link to="/plant/introduction">사업소개</Link>
+              </li>
+              <li>
+                <Link to="/plant/performance">실적</Link>
+              </li>
             </ul>
           </li>
           <li className="menu-title">
-            <a href="">금속가공사업</a>
+            <Link to="">금속가공사업</Link>
             <ul
               className="menu-list-wrap"
               style={{ maxHeight: isMouseHovered ? "400px" : "0" }}
@@ -91,7 +89,7 @@ const Header = () => {
           </li>
 
           <li className="menu-title">
-            <a href="">교육재료사업</a>
+            <Link to="">교육재료사업</Link>
             <ul
               className="menu-list-wrap"
               style={{ maxHeight: isMouseHovered ? "400px" : "0" }}
@@ -104,19 +102,19 @@ const Header = () => {
           </li>
 
           <li className="menu-title">
-            <a href="">기술교육원</a>
+            <Link to="">기술교육원</Link>
           </li>
 
           <li className="menu-title">
-            <a href="">주요설비</a>
+            <Link to="">주요설비</Link>
           </li>
 
           <li className="menu-title">
-            <a href="">대리점</a>
+            <Link to="">대리점</Link>
           </li>
 
           <li className="menu-title">
-            <a href="">판매사업</a>
+            <Link to="">판매사업</Link>
             <ul
               className="menu-list-wrap"
               style={{ maxHeight: isMouseHovered ? "400px" : "0" }}

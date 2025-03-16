@@ -1,10 +1,10 @@
 import React, { useState, useEffect, useRef } from "react";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-import BackgroundImage from "../components/BackgroundImage";
-import aboutImage from "../assets/고양이2.png";
-import useScrollTo from "../hooks/useScrollTo";
-import "../styles/pages/AboutLocation.css";
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
+import BackgroundImage from "../../components/BackgroundImage";
+import aboutImage from "../../assets/고양이2.png";
+import useScrollTo from "../../hooks/useScrollTo";
+import "../../styles/pages/About/AboutLocation.css";
 
 const AboutLocation = () => {
   useScrollTo(200, 100);

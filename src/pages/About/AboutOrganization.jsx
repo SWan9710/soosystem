@@ -1,11 +1,11 @@
 import React from "react";
-import "../styles/pages/AboutOrganization.css";
-import Header from "./../components/Header";
-import Footer from "./../components/Footer";
-import BackgroundImage from "./../components/BackgroundImage";
-import aboutImage from "../assets/고양이2.png";
-import useScrollTo from "../hooks/useScrollTo";
-import OrgLogo from "../assets/수시스템_영어2.png";
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
+import BackgroundImage from "../../components/BackgroundImage";
+import aboutImage from "../../assets/고양이2.png";
+import useScrollTo from "../../hooks/useScrollTo";
+import OrgLogo from "../../assets/수시스템_영어2.png";
+import "../../styles/pages/About/AboutOrganization.css";
 
 const AboutOrganization = () => {
   const Title = "SOOSYSTEM";

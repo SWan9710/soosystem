@@ -1,0 +1,35 @@
+.certificate {
+  height: auto;
+  padding-bottom: 2em;
+}
+
+.certificate > img {
+  display: block;
+  margin: 1em auto;
+}
+
+.certificate-container {
+  width: 100%;
+  height: 100%;
+  padding: 1em 5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.certificate-title {
+  font-size: 2em;
+  padding-bottom: 1em;
+  border-bottom: 3px solid #1e1e1e;
+  margin: 1em 0;
+}
+
+.certificate-english-title {
+  font-size: 2em;
+  margin: 1em 0;
+}
+
+.certificate-english-title > span {
+  color: #005c9d;
+}
