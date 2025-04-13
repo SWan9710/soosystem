@@ -6,7 +6,7 @@ const CertificateContainer = ({ certificates }) => {
     <section>
       <div className="certificate-wrap">
         {certificates.map((certificate, index) => (
-          <div className="certificate-box">
+          <div className="certificate-box" key={index}>
             <img src={certificate.image} alt={`등록증${index + 1}`} />
             <h3 className="certificate-detail-title">
               {certificate.detail_title}

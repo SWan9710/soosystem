@@ -1,0 +1,58 @@
+.metal {
+  min-height: 100vh;
+}
+
+.metal-wrap {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../../assets/플랜트3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 120% 120%;
+  background-attachment: fixed;
+  overflow: hidden;
+  animation: scaleDown 2s forwards;
+}
+
+.metal-title {
+  font-size: 3em;
+  color: white;
+  text-align: center;
+  z-index: 2;
+}
+
+.metal-title ~ p {
+  margin: 1em;
+  color: white;
+  z-index: 2;
+}
+
+.metal-wrap::after {
+  content: "";
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  opacity: 0.3;
+  z-index: 1;
+}
+
+.metal-description-wrap {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.metal-description-title {
+  border-bottom: 3px solid #1e1e1e;
+  margin: 2em 0;
+  text-align: center;
+  font-size: 2em;
+  padding-bottom: 1em;
+}

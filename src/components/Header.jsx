@@ -76,13 +76,15 @@ const Header = () => {
             </ul>
           </li>
           <li className="menu-title">
-            <Link to="">금속가공사업</Link>
+            <Link to="/metal/introduction">금속가공사업</Link>
             <ul
               className="menu-list-wrap"
               style={{ maxHeight: isMouseHovered ? "400px" : "0" }}
             >
               {" "}
-              <li>사업소개</li>
+              <li>
+                <Link to="/metal/introduction">사업소개</Link>
+              </li>
               <li>실적</li>
               <li>공정</li>
             </ul>
@@ -102,7 +104,9 @@ const Header = () => {
           </li>
 
           <li className="menu-title">
-            <Link to="">기술교육원</Link>
+            <Link to="http://soots.co.kr/" target="_blank">
+              기술교육원
+            </Link>
           </li>
 
           <li className="menu-title">

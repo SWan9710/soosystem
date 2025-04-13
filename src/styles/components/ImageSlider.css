@@ -1,0 +1,40 @@
+.image-container {
+  display: flex;
+  width: 500px;
+  overflow-x: scroll;
+  border: 1px solid gray;
+}
+
+.image-container::-webkit-scrollbar {
+  display: none;
+}
+
+.container-slider {
+  display: flex;
+}
+
+.container-slider > img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  margin: 10px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  align-items: center;
+}
+
+.btn-container > button {
+  border: none;
+  width: 100px;
+  height: 60px;
+  background-color: #005c9d;
+  color: white;
+  border-radius: 60px;
+  font-size: 1em;
+  margin: 0 50px;
+  cursor: pointer;
+}

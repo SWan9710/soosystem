@@ -24,13 +24,14 @@ a:visited {
   z-index: 1000;
   opacity: 0.4;
   color: white;
-  transition: height 0.5s ease;
+  transition: height, background-color 0.5s ease;
 }
 
 .change {
   background-color: white;
   color: black;
   opacity: 1;
+  transition: background-color 0.5s ease;
 }
 
 .menu-open {

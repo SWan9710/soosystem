@@ -8,6 +8,7 @@ import AboutCertificate from "../pages/About/AboutCertificate";
 import AboutLocation from "../pages/About/AboutLocation";
 import PlantIntroduction from "../pages/Plant/PlantIntroduction";
 import PlantPerformance from "../pages/Plant/PlantPerformance";
+import MetalIntroduction from "../pages/Metal/MetalIntroduction";
 
 import AboutStory from "../pages/About/AboutStory";
 
@@ -29,6 +30,8 @@ const Router = () => {
         {/* 플랜트사업 */}
         <Route path="/plant/introduction" element={<PlantIntroduction />} />
         <Route path="/plant/performance" element={<PlantPerformance />} />
+
+        <Route path="/metal/introduction" element={<MetalIntroduction />} />
       </Routes>
     </BrowserRouter>
   );
