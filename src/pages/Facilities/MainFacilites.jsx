@@ -19,8 +19,7 @@ import FacilitiesContainer from "../../components/FacilitiesContainer";
 import "../../styles/pages/Facilities/MainFacilites.css";
 
 const MainFacilites = () => {
-  useScrollTo(200, 100);
-  const Title = "SOOSYSTEM";
+  useScrollTo(50, 100);
 
   const images = [
     MainFacilities1,
@@ -60,7 +59,7 @@ const MainFacilites = () => {
   return (
     <div>
       <Header />
-      <BackgroundColor title={Title} />
+      <BackgroundColor />
       <section className="facilities-wrap">
         <img src={Logo} alt="" />
         <h1 className="facilities-title">장비현황</h1>

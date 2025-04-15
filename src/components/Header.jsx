@@ -26,7 +26,7 @@ const Header = () => {
 
   return (
     <header
-      className={`header ${scrollPosition <= 100 ? "" : "change"} ${
+      className={`header ${scrollPosition <= 0 ? "" : "change"} ${
         isMouseHovered ? "menu-open" : ""
       }`}
       ref={navRef}

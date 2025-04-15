@@ -17,14 +17,13 @@ import {
 import "../../styles/pages/About/AboutCertificate.css";
 
 const AboutCertificate = () => {
-  useScrollTo(200, 100);
-  const Title = "SOOSYSTEM";
+  useScrollTo(50, 100);
 
   return (
     <div>
       <Header />
       {/* <BackgroundImage image={aboutImage} title={Title} /> */}
-      <BackgroundColor title={Title} />
+      <BackgroundColor />
       <section className="certificate">
         <img src={Logo} alt="" />
         <div className="certificate-container">

@@ -8,6 +8,10 @@
   margin: auto;
 }
 
+.org-wrap {
+  margin: 100px;
+}
+
 .org-wrap > h1 > span {
   color: #005c9d;
 }

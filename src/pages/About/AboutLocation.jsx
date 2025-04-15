@@ -8,8 +8,7 @@ import useScrollTo from "../../hooks/useScrollTo";
 import "../../styles/pages/About/AboutLocation.css";
 
 const AboutLocation = () => {
-  useScrollTo(200, 100);
-  const Title = "SOOSYSTEM";
+  useScrollTo(50, 100);
   const mapRef = useRef(null);
   const lat = 35.187558964135725;
   const lng = 128.28203226113249;
@@ -55,7 +54,7 @@ const AboutLocation = () => {
     <div>
       <Header />
       {/* <BackgroundImage image={aboutImage} title={Title} /> */}
-      <BackgroundColor title={Title} />
+      <BackgroundColor />
       <section className="location">
         <h1 className="location-title">본사</h1>
         <div className="location-information">

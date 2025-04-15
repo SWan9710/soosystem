@@ -12,8 +12,7 @@ import ImageSlider from "../../components/ImageSlider";
 import "../../styles/pages/Plant/PlantPerformance.css";
 
 const PlantPerformance = () => {
-  useScrollTo(200, 100);
-  const Title = "SOOSYSTEM";
+  useScrollTo(50, 100);
   const titles = ["고양이 1", "고양이 2", "고양이 3", "고양이 4", "고양이 5"];
   const images = [cat, cat2, cat, cat, cat];
 
@@ -21,7 +20,7 @@ const PlantPerformance = () => {
     <div>
       <Header />
       {/* <BackgroundImage image={plantImage} title={Title} /> */}
-      <BackgroundColor title={Title} />
+      <BackgroundColor />
       <section className="plant-performance">
         <ImageSlider titles={titles} images={images} />
       </section>

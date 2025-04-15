@@ -7,12 +7,11 @@ import useScrollTo from "../../hooks/useScrollTo";
 import "../../styles/pages/Education/EducationDelivery.css";
 
 const EducationDelivery = () => {
-  useScrollTo(200, 100);
-  const Title = "SOOSYSTEM";
+  useScrollTo(50, 100);
   return (
     <div>
       <Header />
-      <BackgroundColor title={Title} />
+      <BackgroundColor />
       <section className="education-delivery">어떤거 보여줄지.. 흠</section>
       <Footer />
     </div>

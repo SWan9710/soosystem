@@ -7,12 +7,11 @@ import useScrollTo from "../../hooks/useScrollTo";
 import "../../styles/pages/Metal/MetalProcess.css";
 
 const MetalProcess = () => {
-  useScrollTo(200, 100);
-  const Title = "SOOSYSTEM";
+  useScrollTo(50, 100);
   return (
     <div>
       <Header />
-      <BackgroundColor title={Title} />
+      <BackgroundColor />
       <section className="metal-process">
         아직 자세한 설명이 없었음 참고 자료도 부족
       </section>

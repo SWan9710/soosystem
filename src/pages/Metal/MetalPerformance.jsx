@@ -7,12 +7,11 @@ import useScrollTo from "../../hooks/useScrollTo";
 import "../../styles/pages/Metal/MetalPerformance.css";
 
 const MetalPerformance = () => {
-  useScrollTo(200, 100);
-  const Title = "SOOSYSTEM";
+  useScrollTo(50, 100);
   return (
     <div>
       <Header />
-      <BackgroundColor title={Title} />
+      <BackgroundColor />
       <section className="metal-performance">
         사진들 나열하고 클릭시 디테일 페이지로 이동하게 만들기
       </section>

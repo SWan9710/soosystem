@@ -7,12 +7,11 @@ import useScrollTo from "../../hooks/useScrollTo";
 import "../../styles/pages/Education/EducationPerformance.css";
 
 const EducationPerformance = () => {
-  useScrollTo(200, 100);
-  const Title = "SOOSYSTEM";
+  useScrollTo(50, 100);
   return (
     <div>
       <Header />
-      <BackgroundColor title={Title} />
+      <BackgroundColor />
       <section className="education-performance">
         기능올림픽 공식 후원 부분 설명
         <br /> 학교 후원 하는곳 대충 이미지 뽑은거 보여주기

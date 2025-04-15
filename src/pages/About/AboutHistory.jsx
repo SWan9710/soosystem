@@ -10,8 +10,7 @@ import Footer from "../../components/Footer";
 import "../../styles/pages/About/AboutHistory.css";
 
 const AboutHistory = () => {
-  const Title = "SOOSYSTEM";
-  useScrollTo(200, 100);
+  useScrollTo(50, 100);
 
   // 관찰할 ref 배열로 생성
   const refs = [
@@ -69,7 +68,7 @@ const AboutHistory = () => {
     <div className="about">
       <Header />
       {/* <BackgroundImage image={aboutImage} title={Title} /> */}
-      <BackgroundColor title={Title} />
+      <BackgroundColor />
       <section className="about-history-section">
         <div className="history-line-circle">
           <p>NOW</p>

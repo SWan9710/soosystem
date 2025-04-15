@@ -9,13 +9,12 @@ import OrgLogo from "../../assets/수시스템_영어2.png";
 import "../../styles/pages/About/AboutOrganization.css";
 
 const AboutOrganization = () => {
-  const Title = "SOOSYSTEM";
-  useScrollTo(200, 100);
+  useScrollTo(50, 100);
   return (
     <div>
       <Header />
       {/* <BackgroundImage image={aboutImage} title={Title} /> */}
-      <BackgroundColor title={Title} />
+      <BackgroundColor />
       <section className="org-wrap">
         <h1 id="title">
           ORGANIZATION <span>CHART</span>
