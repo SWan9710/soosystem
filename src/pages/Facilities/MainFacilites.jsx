@@ -9,7 +9,7 @@ import Logo from "../../assets/수시스템_영어2.png";
 import MainFacilities1 from "../../assets/facilities/형강레이저12kw 12M 520파이.jpg";
 import MainFacilities2 from "../../assets/facilities/형강레이저 3kw 6M 230파이.jpg";
 import MainFacilities3 from "../../assets/facilities/형강레이저 20KW 26M 1250mm 3D 5축 절단기.png";
-import MainFacilities4 from "../../assets/facilities/평판 파이버레이저 4kw 1500x3000 + 트랜스장비.jpg";
+import MainFacilities4 from "../../assets/facilities/평판 파이버레이저 4kw 1500x3000 - 트랜스장비.jpg";
 import MainFacilities5 from "../../assets/facilities/평판 파이버레이저 10kw 2500x6000.jpg";
 import MainFacilities6 from "../../assets/facilities/형강레이저 12KW 12M 520파이 - 작업설명서.png";
 import MainFacilities7 from "../../assets/facilities/형강레이저 6kw 10M 280 사각척.jpg";
