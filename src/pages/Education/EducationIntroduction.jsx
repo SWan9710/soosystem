@@ -1,10 +1,12 @@
 import React from "react";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
+import useScrollTop from "../../hooks/useScrollTop";
 
 import "../../styles/pages/Education/EducationIntroduction.css";
 
 const EducationIntroduction = () => {
+  useScrollTop(0, 0);
   return (
     <div>
       <Header />
