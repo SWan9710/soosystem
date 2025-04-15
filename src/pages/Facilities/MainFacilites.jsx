@@ -81,12 +81,12 @@ const MainFacilites = () => {
           descriptions={descriptions[3]}
         />
         <FacilitiesContainer image={images[2]} title={titles[2]} />
-        <FacilitiesContainer image={images[3]} title={titles[3]} />
         <FacilitiesContainer
-          image={images[4]}
-          title={titles[4]}
+          image={images[3]}
+          title={titles[3]}
           descriptions={descriptions[2]}
         />
+        <FacilitiesContainer image={images[4]} title={titles[4]} />
       </section>
       <Footer />
     </div>
