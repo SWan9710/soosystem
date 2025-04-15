@@ -12,6 +12,7 @@ import MainFacilities3 from "../../assets/facilities/형강레이저 20KW 26M 12
 import MainFacilities4 from "../../assets/facilities/평판 파이버레이저 4kw 1500x3000 + 트랜스장비.jpg";
 import MainFacilities5 from "../../assets/facilities/평판 파이버레이저 10kw 2500x6000.jpg";
 import MainFacilities6 from "../../assets/facilities/형강레이저 12KW 12M 520파이 - 작업설명서.png";
+import MainFacilities7 from "../../assets/facilities/형강레이저 6kw 10M 280 사각척.jpg";
 
 import FacilitiesContainer from "../../components/FacilitiesContainer";
 
@@ -28,6 +29,7 @@ const MainFacilites = () => {
     MainFacilities4,
     MainFacilities5,
     MainFacilities6,
+    MainFacilities7,
   ];
 
   const titles = [
@@ -37,6 +39,7 @@ const MainFacilites = () => {
     "평판 파이버레이저 4kw 1500x3000 + 트랜스장비",
     "평판 파이버레이저 10kw 2500x6000",
     "형강레이저12kw 12M 520파이 작업물",
+    "형강레이저 6kw 10M 280 사각척",
   ];
 
   const descriptions = [
@@ -52,6 +55,7 @@ const MainFacilites = () => {
     [
       "자재 로딩 / 언로딩 과정을 자동화로 진행해 작업시간 단축 및 정확성이 높음",
     ],
+    ["3kw 장비보다 높은 출력 및 사각척으로 형강 가공범위 확장"],
   ];
   return (
     <div>
@@ -70,6 +74,11 @@ const MainFacilites = () => {
           image={images[1]}
           title={titles[1]}
           descriptions={descriptions[1]}
+        />
+        <FacilitiesContainer
+          image={images[6]}
+          title={titles[6]}
+          descriptions={descriptions[3]}
         />
         <FacilitiesContainer image={images[2]} title={titles[2]} />
         <FacilitiesContainer image={images[3]} title={titles[3]} />
