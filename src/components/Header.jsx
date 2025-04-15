@@ -123,7 +123,7 @@ const Header = () => {
           </li>
 
           <li className="menu-title">
-            <Link to="">주요설비</Link>
+            <Link to="/facilities">주요설비</Link>
           </li>
 
           <li className="menu-title">

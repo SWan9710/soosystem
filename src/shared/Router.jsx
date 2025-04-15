@@ -14,6 +14,7 @@ import MetalProcess from "../pages/Metal/MetalProcess";
 import EducationIntroduction from "../pages/Education/EducationIntroduction";
 import EducationPerformance from "../pages/Education/EducationPerformance";
 import EducationDelivery from "../pages/Education/EducationDelivery";
+import MainFacilites from "./../pages/Facilities/MainFacilites";
 
 import AboutStory from "../pages/About/AboutStory";
 
@@ -51,6 +52,9 @@ const Router = () => {
           element={<EducationPerformance />}
         />
         <Route path="/education/delivery" element={<EducationDelivery />} />
+
+        {/* 주요설비 */}
+        <Route path="/facilities" element={<MainFacilites />} />
       </Routes>
     </BrowserRouter>
   );

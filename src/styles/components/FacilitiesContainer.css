@@ -1,0 +1,33 @@
+.facilities-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1em 0;
+}
+
+.facilities-image {
+  width: 1180px;
+  height: 510px;
+  object-fit: fill;
+  border: 1px solid #005c9d;
+}
+
+.facilities-image-title {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  background-color: #005c9d;
+  color: white;
+  font-size: 24px;
+  line-height: 50px;
+}
+
+.facilities-description {
+  margin: 1em 0;
+}
+
+.facilities-description > li {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
