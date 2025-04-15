@@ -12,7 +12,6 @@ const PlantIntroduction = () => {
       <section className="plant">
         <div className="plant-wrap">
           <h1 className="plant-title">사업소개</h1>
-          <p>인류와 환경을 생각하는 생활과학 기업 수시스템</p>
         </div>
 
         <div className="plant-description-wrap">

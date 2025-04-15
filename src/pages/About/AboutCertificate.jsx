@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import BackgroundImage from "../../components/BackgroundImage";
+import BackgroundColor from "./../../components/BackgroundColor";
 import aboutImage from "../../assets/고양이2.png";
 import useScrollTo from "../../hooks/useScrollTo";
 import CertificateContainer from "../../components/CertificateContainer";
@@ -22,7 +23,8 @@ const AboutCertificate = () => {
   return (
     <div>
       <Header />
-      <BackgroundImage image={aboutImage} title={Title} />
+      {/* <BackgroundImage image={aboutImage} title={Title} /> */}
+      <BackgroundColor title={Title} />
       <section className="certificate">
         <img src={Logo} alt="" />
         <div className="certificate-container">

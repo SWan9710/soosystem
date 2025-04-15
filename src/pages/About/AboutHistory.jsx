@@ -1,6 +1,7 @@
 import React, { useRef, useEffect, useState } from "react";
 import Header from "../../components/Header";
 import BackgroundImage from "../../components/BackgroundImage";
+import BackgroundColor from "./../../components/BackgroundColor";
 import aboutImage from "../../assets/고양이2.png";
 import useScrollTo from "../../hooks/useScrollTo";
 import LeftHistoryDescription from "../../components/LeftHistoryDescription";
@@ -67,7 +68,8 @@ const AboutHistory = () => {
   return (
     <div className="about">
       <Header />
-      <BackgroundImage image={aboutImage} title={Title} />
+      {/* <BackgroundImage image={aboutImage} title={Title} /> */}
+      <BackgroundColor title={Title} />
       <section className="about-history-section">
         <div className="history-line-circle">
           <p>NOW</p>

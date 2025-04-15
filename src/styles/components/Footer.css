@@ -8,8 +8,12 @@ body .footer-wrap {
   min-height: 10vh;
   background-color: #262626;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   color: white;
+}
+
+.footer-logo {
+  margin: 0 3rem;
 }
 
 .footer-description {

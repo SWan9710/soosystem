@@ -13,7 +13,6 @@ const MetalIntroduction = () => {
       <section className="metal">
         <div className="metal-wrap">
           <h1 className="metal-title">사업소개</h1>
-          <p>인류와 환경을 생각하는 생활과학 기업 수시스템</p>
         </div>
 
         <div className="metal-description-wrap">

@@ -1,7 +1,8 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import BackgroundImage from "../../components/BackgroundImage";
+import BackgroundColor from "./../../components/BackgroundColor";
 import aboutImage from "../../assets/고양이2.png";
 import useScrollTo from "../../hooks/useScrollTo";
 import "../../styles/pages/About/AboutLocation.css";
@@ -53,7 +54,8 @@ const AboutLocation = () => {
   return (
     <div>
       <Header />
-      <BackgroundImage image={aboutImage} title={Title} />
+      {/* <BackgroundImage image={aboutImage} title={Title} /> */}
+      <BackgroundColor title={Title} />
       <section className="location">
         <h1 className="location-title">본사</h1>
         <div className="location-information">

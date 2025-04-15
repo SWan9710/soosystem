@@ -14,12 +14,15 @@ const Header = () => {
     setScrollPosition(window.scrollY || document.documentElement.scrollTop);
   };
 
+  // 페이지 마운트 시 setTimeout을 이용해 스크롤 포지션 계산
   useEffect(() => {
     window.addEventListener("scroll", updateScroll);
+
+    setTimeout(updateScroll, 200);
     return () => {
       window.removeEventListener("scroll", updateScroll);
     };
-  }, []);
+  }, [location]);
 
   return (
     <header
@@ -85,21 +88,31 @@ const Header = () => {
               <li>
                 <Link to="/metal/introduction">사업소개</Link>
               </li>
-              <li>실적</li>
-              <li>공정</li>
+              <li>
+                <Link to="/metal/performance">실적</Link>
+              </li>
+              <li>
+                <Link to="/metal/process">공정</Link>
+              </li>
             </ul>
           </li>
 
           <li className="menu-title">
-            <Link to="">교육재료사업</Link>
+            <Link to="/education/introduction">교육재료사업</Link>
             <ul
               className="menu-list-wrap"
               style={{ maxHeight: isMouseHovered ? "400px" : "0" }}
             >
               {" "}
-              <li>사업소개</li>
-              <li>실적</li>
-              <li>납품현황</li>
+              <li>
+                <Link to="/education/introduction">사업소개</Link>
+              </li>
+              <li>
+                <Link to="/education/performance">실적</Link>
+              </li>
+              <li>
+                <Link to="/education/delivery">납품현황</Link>
+              </li>
             </ul>
           </li>
 

@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import BackgroundImage from "../../components/BackgroundImage";
+import BackgroundColor from "../../components/BackgroundColor";
 import aboutImage from "../../assets/고양이2.png";
 import useScrollTo from "../../hooks/useScrollTo";
 import OrgLogo from "../../assets/수시스템_영어2.png";
@@ -13,8 +14,8 @@ const AboutOrganization = () => {
   return (
     <div>
       <Header />
-      <BackgroundImage image={aboutImage} title={Title} />
-
+      {/* <BackgroundImage image={aboutImage} title={Title} /> */}
+      <BackgroundColor title={Title} />
       <section className="org-wrap">
         <h1 id="title">
           ORGANIZATION <span>CHART</span>

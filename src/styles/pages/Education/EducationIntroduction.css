@@ -1,0 +1,70 @@
+.education-wrap {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../../assets/용접1.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 120% 120%;
+  background-attachment: fixed;
+  overflow: hidden;
+  animation: scaleDown 2s forwards;
+}
+
+.education-title {
+  font-size: 3em;
+  color: white;
+  text-align: center;
+  z-index: 2;
+}
+
+.education-title ~ p {
+  margin: 1em;
+  color: white;
+  z-index: 2;
+}
+
+.education-wrap::after {
+  content: "";
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  opacity: 0.3;
+  z-index: 1;
+}
+
+.education-description-wrap {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.education-description-title-wrap {
+  border-bottom: 3px solid #1e1e1e;
+  margin: 5em 0;
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+.edu-title {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+.edu-subtitle {
+  font-size: 1.2em;
+}
+
+.education-deesciption {
+  font-size: 1.2em;
+}
+
+.education-deesciption > span {
+  color: #005c9d;
+}

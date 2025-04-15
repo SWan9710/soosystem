@@ -1,4 +1,4 @@
-.plant-performance {
+.education-delivery {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -6,7 +6,7 @@
   align-items: center;
 }
 
-.performance-title {
+.education-title {
   font-size: 2em;
   margin: 2em 0;
 }
