@@ -15,6 +15,7 @@ import EducationIntroduction from "../pages/Education/EducationIntroduction";
 import EducationPerformance from "../pages/Education/EducationPerformance";
 import EducationDelivery from "../pages/Education/EducationDelivery";
 import MainFacilites from "./../pages/Facilities/MainFacilites";
+import Agency from "../pages/Agency/Agency";
 
 import AboutStory from "../pages/About/AboutStory";
 
@@ -55,6 +56,9 @@ const Router = () => {
 
         {/* 주요설비 */}
         <Route path="/facilities" element={<MainFacilites />} />
+
+        {/* 대리점 */}
+        <Route path="/agency" element={<Agency />} />
       </Routes>
     </BrowserRouter>
   );

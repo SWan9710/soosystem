@@ -1,0 +1,29 @@
+.agency {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px;
+}
+
+.agency-title {
+  margin: 1em 0 1em 0;
+  font-size: 2em;
+  align-self: center;
+}
+
+.agency-wrap {
+  display: flex;
+  font-size: 1.4em;
+  padding: 0 14em;
+  width: 100%;
+  height: 60px;
+}
+
+.agency-wrap > li {
+  border: 1px solid #005c9d;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+  line-height: 60px;
+}

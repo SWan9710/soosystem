@@ -127,7 +127,7 @@ const Header = () => {
           </li>
 
           <li className="menu-title">
-            <Link to="">대리점</Link>
+            <Link to="/agency">대리점</Link>
           </li>
 
           <li className="menu-title">
