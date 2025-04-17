@@ -14,13 +14,13 @@ const Footer = () => {
         <span>TEL. 055-762-0344</span>
         <span id="contour"> | </span>
         <span>FAX. 0505-662-0344</span>
-        <br />
-        <span>E-mail. SST01@soosystem.com</span>
+        <span id="contour"> | </span>
+        <span>E-mail : SST01@soosystem.com</span>
         <span id="contour"> | </span>
         <span>tviman@naver.com</span>
-        <br />
+        <span id="contour"> | </span>
         <span>진주본사 : 경상남도 진주시 사봉면 산업단지로 110</span>
-        <br />
+        <span id="contour"> | </span>
         <span>사천공장 : 경상남도 사천시 용현면 진삼로 840</span>
       </p>
     </footer>

@@ -5,15 +5,12 @@ body .footer-wrap {
   font-size: 13px;
   width: 100%;
   padding: 3rem 0;
-  min-height: 10vh;
+  max-height: 10vh;
   background-color: #262626;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   color: white;
-}
-
-.footer-logo {
-  margin: 0 3rem;
 }
 
 .footer-description {
