@@ -13,7 +13,9 @@
   padding-bottom: 1em;
 }
 
-.facilities-wrap > img {
-  display: block;
-  margin: 5em 0;
+.facilities-loop-carousel {
+  display: flex;
+  width: 70%;
+  align-items: flex-start;
+  overflow-x: hidden;
 }

@@ -117,7 +117,7 @@ const Header = () => {
           </li>
 
           <li className="menu-title">
-            <Link to="http://soots.co.kr/" target="_blank">
+            <Link to="" target="">
               기술교육원
             </Link>
           </li>
