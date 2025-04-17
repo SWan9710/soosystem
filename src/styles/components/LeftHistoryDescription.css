@@ -1,10 +1,8 @@
 .left-container {
   position: relative;
   width: 50%;
-  padding-top: 1em;
+  padding-top: 5em;
   padding-right: 3em;
-  border-right: 3px solid #005c9d;
-  transform: translateX(1.5px);
 }
 
 #left-container-title {
@@ -22,7 +20,7 @@
   position: absolute;
   right: 0;
   top: 0;
-  transform: translate(9px, 150%);
+  transform: translate(7.5px, 500%);
 }
 
 .left-container-box {
