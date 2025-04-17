@@ -1,8 +1,7 @@
 .certificate {
   height: auto;
   padding-bottom: 2em;
-  margin: 100px;
-  margin-top: 30em;
+  margin: 15em 100px;
 }
 
 .certificate > img {
