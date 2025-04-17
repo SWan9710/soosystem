@@ -17,7 +17,7 @@ import {
 import "../../styles/pages/About/AboutCertificate.css";
 
 const AboutCertificate = () => {
-  useScrollTo(50, 100);
+  useScrollTo(0, 0);
 
   return (
     <div>

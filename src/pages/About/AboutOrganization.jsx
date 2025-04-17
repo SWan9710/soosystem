@@ -9,7 +9,7 @@ import OrgLogo from "../../assets/수시스템_영어2.png";
 import "../../styles/pages/About/AboutOrganization.css";
 
 const AboutOrganization = () => {
-  useScrollTo(50, 100);
+  useScrollTo(0, 0);
   return (
     <div>
       <Header />

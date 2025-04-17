@@ -10,7 +10,7 @@ import Footer from "../../components/Footer";
 import "../../styles/pages/About/AboutHistory.css";
 
 const AboutHistory = () => {
-  useScrollTo(50, 100);
+  useScrollTo(0, 0);
 
   // 관찰할 ref 배열로 생성
   const refs = [

@@ -8,7 +8,7 @@ import useScrollTo from "../../hooks/useScrollTo";
 import "../../styles/pages/About/AboutLocation.css";
 
 const AboutLocation = () => {
-  useScrollTo(50, 100);
+  useScrollTo(0, 0);
   const mapRef = useRef(null);
   const lat = 35.187558964135725;
   const lng = 128.28203226113249;

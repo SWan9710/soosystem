@@ -12,7 +12,7 @@ import ImageSlider from "../../components/ImageSlider";
 import "../../styles/pages/Plant/PlantPerformance.css";
 
 const PlantPerformance = () => {
-  useScrollTo(50, 100);
+  useScrollTo(0, 0);
   const titles = ["고양이 1", "고양이 2", "고양이 3", "고양이 4", "고양이 5"];
   const images = [cat, cat2, cat, cat, cat];
 

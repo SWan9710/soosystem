@@ -7,7 +7,7 @@ import useScrollTo from "../../hooks/useScrollTo";
 import "../../styles/pages/Education/EducationPerformance.css";
 
 const EducationPerformance = () => {
-  useScrollTo(50, 100);
+  useScrollTo(0, 0);
   return (
     <div>
       <Header />

@@ -8,7 +8,7 @@ import AgencyLocation from "../../components/AgencyLocation";
 import "../../styles/pages/Agency/Agency.css";
 
 const Agency = () => {
-  useScrollTo(130, 100);
+  useScrollTo(0, 0);
   const [selected, setSelected] = useState("동부지사");
 
   const handleSelect = (location) => {

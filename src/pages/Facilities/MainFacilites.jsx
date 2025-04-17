@@ -19,7 +19,7 @@ import FacilitiesContainer from "../../components/FacilitiesContainer";
 import "../../styles/pages/Facilities/MainFacilites.css";
 
 const MainFacilites = () => {
-  useScrollTo(50, 100);
+  useScrollTo(0, 0);
 
   const images = [
     MainFacilities1,
