@@ -10,7 +10,7 @@
 
 .introduction-section {
   width: 100%;
-  height: 100vh;
+  height: 90vh;
 }
 
 .introduction-section::selection {
@@ -28,7 +28,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 15em;
+  padding: 20em;
 }
 
 @keyframes scaleDown {
@@ -63,28 +63,29 @@
 }
 
 .section-description-top > h2 {
-  font-size: 3em;
+  font-size: 2.5em;
   margin-right: 10px;
 }
 
 .section-description-top > p {
   line-height: 20px;
+  font-size: 0.8em;
 }
 
 .section-description-top > p > span {
   color: #a4cef8;
-  font-size: 1.1em;
+  font-size: 1em;
 }
 
 .section-quality {
-  font-size: 1em;
+  font-size: 0.8em;
 }
 
 .introduction-CEO {
   background-color: white;
   height: 80vh;
   display: flex;
-  padding: 5em 15em;
+  padding: 15em 15em 5em 15em;
 }
 
 .introduction-image {
