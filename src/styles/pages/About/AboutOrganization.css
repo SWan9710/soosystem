@@ -10,6 +10,7 @@
 
 .org-wrap {
   margin: 100px;
+  margin-top: 30em;
 }
 
 .org-wrap > h1 > span {
