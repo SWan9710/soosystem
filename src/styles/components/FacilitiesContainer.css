@@ -1,0 +1,30 @@
+.facilities-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2em;
+  width: 100%;
+}
+
+.facility-box {
+  border: 1px solid #005c9d;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.facility-box > img {
+  width: 400px;
+  height: 400px;
+  object-fit: fill;
+}
+
+.facilities-detail-title {
+  background-color: #005c9d;
+  width: 100%;
+  height: 50px;
+  font-size: 1.4em;
+  line-height: 50px;
+  text-align: center;
+  color: white;
+}

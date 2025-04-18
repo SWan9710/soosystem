@@ -49,38 +49,9 @@ const InfiniteCarousel = ({ carouselList }) => {
     }
   };
 
-  const handleTouchStart = (e) => {
-    touchStartX = e.nativeEvent.touches[0].clientX;
-  };
-
-  const handleTouchMove = (e) => {
-    const currTouchX = e.nativeEvent.changedTouches[0].clientX;
-
-    if (carouselRef.current) {
-      carouselRef.current.style.transform = `translateX(calc(-${currentIndex}00% - ${
-        (touchStartX - currTouchX) * 2 || 0
-      }px))`;
-    }
-  };
-
-  const handleTouchEnd = (e) => {
-    touchEndX = e.nativeEvent.changedTouches[0].clientX;
-
-    if (touchStartX >= touchEndX) {
-      handleSwipe(1);
-    } else {
-      handleSwipe(-1);
-    }
-  };
-
   return (
     <div className="carousel-facilities-container">
-      <div
-        className="carousel-wrapper"
-        onTouchStart={handleTouchStart}
-        onTouchMove={handleTouchMove}
-        onTouchEnd={handleTouchEnd}
-      >
+      <div className="carousel-wrapper">
         <button className="swipe-left" onClick={() => handleSwipe(-1)}>
           <ChevronLeft />
         </button>
