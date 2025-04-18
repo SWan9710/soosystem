@@ -30,6 +30,7 @@ const MainFacilites = () => {
         "높은 출력과 바벨기능 탐재로 공정간소화 가능",
       ],
     ],
+    [MainFacilities6, "형강레이저12kw 12M 520파이 작업능력"],
     [
       MainFacilities2,
       "형강레이저3kw 10M 230파이",
@@ -41,21 +42,20 @@ const MainFacilites = () => {
       ],
     ],
     [
-      MainFacilities3,
-      "형강레이저 20KW 26M 1250mm 3D 5축 절단기",
+      MainFacilities7,
+      "형강레이저 6kw 10M 280 사각척",
+      ["3kw 장비보다 높은 출력 및 사각척으로 형강 가공범위 확장"],
+    ],
+    [MainFacilities3, "형강레이저 20KW 26M 1250mm 3D 5축 절단기"],
+
+    [MainFacilities4, "평판 파이버레이저 4kw 1500x3000 + 트랜스장비"],
+    [
+      MainFacilities5,
+      "평판 파이버레이저 10kw 2500x6000",
       [
         "자재 로딩 / 언로딩 과정을 자동화로 진행해 작업시간 단축 및 정확성이 높음",
       ],
     ],
-
-    [
-      MainFacilities4,
-      "평판 파이버레이저 4kw 1500x3000 + 트랜스장비",
-      ["3kw 장비보다 높은 출력 및 사각척으로 형강 가공범위 확장"],
-    ],
-    [MainFacilities5, "평판 파이버레이저 10kw 2500x6000"],
-    [MainFacilities6, "형강레이저12kw 12M 520파이 작업능력"],
-    [MainFacilities7, "형강레이저 6kw 10M 280 사각척"],
   ];
 
   return (

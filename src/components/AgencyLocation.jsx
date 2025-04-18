@@ -2,7 +2,11 @@ import React, { useEffect, useRef } from "react";
 import "../styles/components/AgencyLocation.css";
 
 const agencyLocations = {
-  동부지사: { lat: 37.5665, lng: 126.978, address: "서울특별시 중구" },
+  포항공장: {
+    lat: 35.9872702,
+    lng: 129.3361263,
+    address: "경상북도 포항시 남구 연일읍 원서길 87-9",
+  },
   서부지사: { lat: 35.1796, lng: 129.0756, address: "부산광역시 중구" },
   충남서천: { lat: 36.08, lng: 126.691, address: "충청남도 서천군" },
 };
@@ -26,7 +30,7 @@ const AgencyLocation = ({ locationName }) => {
       );
       const map = new naver.maps.Map("agency-map", {
         center: location,
-        zoom: 17,
+        zoom: 20,
         zoomControl: true,
         zoomControlOptions: {
           style: naver.maps.ZoomControlStyle.SMALL,

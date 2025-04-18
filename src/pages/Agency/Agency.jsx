@@ -9,7 +9,7 @@ import "../../styles/pages/Agency/Agency.css";
 
 const Agency = () => {
   useScrollTo(0, 0);
-  const [selected, setSelected] = useState("동부지사");
+  const [selected, setSelected] = useState("포항공장");
 
   const handleSelect = (location) => {
     setSelected(location);
@@ -22,7 +22,7 @@ const Agency = () => {
       <section className="agency">
         <h1 className="agency-title">대리점 현황</h1>
         <ul className="agency-wrap">
-          {["동부지사", "서부지사", "충남서천"].map((loc) => (
+          {["포항공장", "서부지사", "충남서천"].map((loc) => (
             <li
               key={loc}
               onClick={() => handleSelect(loc)}
