@@ -126,9 +126,9 @@ const Header = () => {
             <Link to="/facilities">주요설비</Link>
           </li>
 
-          <li className="menu-title">
+          {/* <li className="menu-title">
             <Link to="/agency">대리점</Link>
-          </li>
+          </li> */}
 
           <li className="menu-title">
             <Link to="">판매사업</Link>

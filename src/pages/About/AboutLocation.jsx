@@ -65,10 +65,28 @@ const AboutLocation = () => {
           <p>FAX : 0505-662-0344</p>
         </div>
         <div className="map" id="map" ref={mapRef}></div>
-
-        {/* <h1 className="location-title">사천공장</h1>
-        <div className="map"></div> */}
+        <section className="location-2">
+          <h1 className="location-title">대리점 현황</h1>
+          <div className="location-information second">
+            <p>동부지사</p>
+            <p>010-9533-2680</p>
+          </div>
+          <div className="location-information third">
+            <p>서부지사</p>
+            <p> 010-4655-8775</p>
+          </div>
+          <h1 className="location-title">공장현황</h1>
+          <div className="location-information second">
+            <p>사천공장</p>
+            <p>경상남도 사천시 용현면 진삼로 840</p>
+          </div>
+          <div className="location-information third">
+            <p>포항공장</p>
+            <p>경상북도 포항시 남구 연일읍 원서길 87-9</p>
+          </div>
+        </section>
       </section>
+
       <Footer />
     </div>
   );

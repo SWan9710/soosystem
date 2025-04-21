@@ -6,9 +6,23 @@ const agencyLocations = {
     lat: 35.9872702,
     lng: 129.3361263,
     address: "경상북도 포항시 남구 연일읍 원서길 87-9",
+    tel: "010-9533-2680",
+    fax: "0505-662-0344",
   },
-  서부지사: { lat: 35.1796, lng: 129.0756, address: "부산광역시 중구" },
-  충남서천: { lat: 36.08, lng: 126.691, address: "충청남도 서천군" },
+  서부지사: {
+    lat: 35.1796,
+    lng: 129.0756,
+    address: "부산광역시 중구",
+    tel: "010-4655-8775",
+    fax: "0505-123-4567",
+  },
+  충남서천: {
+    lat: 36.037907,
+    lng: 126.683414,
+    address: "충청남도 서천군 장항읍 옥남리",
+    tel: "010-1234-5678",
+    fax: "0505-123-4567",
+  },
 };
 
 const AgencyLocation = ({ locationName }) => {
@@ -59,10 +73,8 @@ const AgencyLocation = ({ locationName }) => {
     <div className="agency-map-container">
       <div className="agency-location-information">
         <p>주소 : {locationInfo.address}</p>
-        <p>|</p>
-        <p>TEL : 055-762-0344</p>
-        <p>|</p>
-        <p>FAX : 0505-662-0344</p>
+        <p>TEL : {locationInfo.tel}</p>
+        <p>FAX : {locationInfo.fax}</p>
       </div>
 
       <div id="agency-map" ref={mapRef}></div>

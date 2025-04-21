@@ -10,7 +10,6 @@ import MainFacilities7 from "../assets/facilities/형강레이저 6kw 10M 280 �
 // 기타장비
 import OtherFacilities1 from "../assets/facilities/멀티 빔 드릴 머신.jpg";
 import OtherFacilities2 from "../assets/facilities/멀티빔 드릴머신 - 2.jpg";
-import OtherFacilities3 from "../assets/facilities/멀티빔 드릴머신 - 3.jpg";
 import OtherFacilities4 from "../assets/facilities/각도밴드쏘 HK-1000.jpg";
 import OtherFacilities5 from "../assets/facilities/AUTO CNC 밴드쏘.jpg";
 import OtherFacilities6 from "../assets/facilities/CNC 절곡기.jpg";
@@ -54,14 +53,14 @@ const MainFacilities = [
   ],
   [MainFacilities3, "형강레이저 20KW 26M 1250mm 3D 5축 절단기"],
 
-  [MainFacilities4, "평판 파이버레이저 4kw 1500x3000 + 트랜스장비"],
   [
-    MainFacilities5,
-    "평판 파이버레이저 10kw 2500x6000",
+    MainFacilities4,
+    "평판 파이버레이저 4kw 1500x3000 + 트랜스장비",
     [
       "자재 로딩 / 언로딩 과정을 자동화로 진행해 작업시간 단축 및 정확성이 높음",
     ],
   ],
+  [MainFacilities5, "평판 파이버레이저 10kw 2500x6000"],
 ];
 
 const OtherFacilities = [
@@ -71,10 +70,6 @@ const OtherFacilities = [
   },
   {
     image: OtherFacilities2,
-    detail_title: "멀티 빔 드릴 머신",
-  },
-  {
-    image: OtherFacilities3,
     detail_title: "멀티 빔 드릴 머신",
   },
   {
