@@ -1,0 +1,28 @@
+.logo-list-wrapper {
+  overflow: hidden;
+  width: 1065px;
+  margin: 1em auto;
+}
+
+.logo-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.logo-list-item {
+  flex: 0 0 auto;
+  margin-right: 13px;
+}
+
+.logo-list-item:last-child {
+  margin-right: 0;
+}
+
+.logo-list-item img {
+  width: 200px;
+  height: 100px;
+  object-fit: contain;
+  display: block;
+}

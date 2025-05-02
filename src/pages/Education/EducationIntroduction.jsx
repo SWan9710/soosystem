@@ -4,11 +4,14 @@ import Footer from "../../components/Footer";
 import useScrollTop from "../../hooks/useScrollTop";
 import eduImage from "../../assets/edulogo/sub0201_img01.jpg";
 import eduChartImage from "../../assets/edulogo/eduChart.png";
+import { AcademyLogo, SchoolLogo } from "../../constants/logos";
+import LogoCarousel from "./../../components/LogoCarousel";
+import worldSkillsLogo from "../../assets/edulogo/worldskills.jpg";
 
 import "../../styles/pages/Education/EducationIntroduction.css";
 
 const EducationIntroduction = () => {
-  // useScrollTop(0, 0);
+  useScrollTop(0, 0);
   return (
     <div>
       <Header />
@@ -28,7 +31,6 @@ const EducationIntroduction = () => {
           </div>
           <div className="education-description-top">
             <h1>사업소개</h1>
-            <p>인류와 환경을 생각하는 생활 과학기업 주식회사 수시스템</p>
           </div>
 
           <section className="education-description-second">
@@ -77,6 +79,33 @@ const EducationIntroduction = () => {
               </span>
               되고 있습니다.
             </p>
+          </section>
+
+          <section className="education-description-slider-wrap">
+            <h1 className="education-subtitle">학교 교육자재 납품</h1>
+            <LogoCarousel logoList={SchoolLogo} />
+          </section>
+
+          <section className="education-description-slider-wrap">
+            <h1 className="education-subtitle">학교 교육자재 납품</h1>
+            <LogoCarousel logoList={AcademyLogo} />
+          </section>
+
+          <section className="education-description-slider-wrap">
+            <h1 className="education-subtitle">
+              국제기능올림픽대회 공식후원사
+            </h1>
+            <a
+              href="https://meister.hrdkorea.or.kr/eng/main.do"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="worlds-skills-logo"
+                src={worldSkillsLogo}
+                alt="worlds-skills-logo"
+              />
+            </a>
           </section>
         </div>
       </section>

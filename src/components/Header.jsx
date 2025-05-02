@@ -108,7 +108,7 @@ const Header = () => {
                 <Link to="/education/introduction">사업소개</Link>
               </li>
               <li>
-                <Link to="/education/performance">실적</Link>
+                <Link to="/education/performance">제품소개</Link>
               </li>
               <li>
                 <Link to="/education/delivery">납품현황</Link>

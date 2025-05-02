@@ -129,3 +129,12 @@
 .edu-forth-description > span {
   color: #005c9d;
 }
+
+.education-description-slider-wrap {
+  margin-top: 5em;
+}
+
+.worlds-skills-logo {
+  width: 300px;
+  height: 200px;
+}
