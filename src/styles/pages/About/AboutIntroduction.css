@@ -1,4 +1,4 @@
-.introduction {
+.introduction-section {
   background-image: url("../../../assets/회사이미지2.png");
   background-size: 120% 120%;
   background-repeat: no-repeat;
@@ -6,9 +6,6 @@
   background-attachment: fixed;
   animation: scaleDown 2s forwards;
   overflow: hidden;
-}
-
-.introduction-section {
   width: 100%;
   height: 60vh;
 }
@@ -81,46 +78,213 @@
   font-size: 0.8em;
 }
 
-.introduction-CEO {
-  background-color: white;
-  height: 120vh;
-  display: flex;
-  padding: 30em 15em 5em 15em;
-}
-
-.introduction-image {
-  width: 30%;
-  height: 100%;
-}
-
-.introduction-image > img {
-  width: 100%;
-  height: 100%;
-}
-
-.introduction-article {
-  border: 1px solid red;
-  width: 70%;
+.introduction-brandstory {
+  padding: 10em 15em 0 15em;
   display: flex;
   flex-direction: column;
+}
+
+.introduction-brandstory-title {
+  width: 100%;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #dfdfdf;
+  font-size: 36px;
+  color: #005c9d;
+}
+
+.introduction-brandstory-wrap {
+  display: flex;
+  margin-top: 2em;
+}
+
+.introduction-brandstory-subtitle {
+  width: 15%;
+  font-size: 24px;
+  color: #333;
+}
+
+.introduction-brandstory-top {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+}
+
+.introduction-brandstory-top > h4 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.brandstory-box {
+  margin: 3em 0;
+  font-size: 15px;
+  color: #555;
+  word-break: keep-all;
+  line-height: 28px;
+  text-align: left;
+  font-family: "Noto Sans KR", "NanumSquare", "Nanum Barun Gothic", dotum,
+    sans-serif;
+}
+
+.brandstory-box > p {
+  margin-bottom: 2em;
+}
+
+.introduction-CI-wrap {
+  display: flex;
+  margin-top: 2em;
+}
+
+.introduction-CI-subtitle {
+  width: 15%;
+  font-size: 24px;
+  color: #333;
+}
+
+.introduction-CI-top {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+}
+
+.CI-title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.CI-subtitle {
+  font-size: 15px;
+  color: #333333;
+  font-family: "'Noto Sans KR', 'NanumSquare', 'Nanum Barun Gothic', dotum, sans-serif";
+}
+
+.sub-1 {
+  color: #005c9d;
+}
+
+.sub-2 {
+  color: #888888;
+}
+
+.sub-3 {
+  color: #c92834;
+}
+
+.CI-box {
+  margin: 3em 0;
+  font-size: 15px;
+  color: #555;
+  word-break: keep-all;
+  line-height: 28px;
+  text-align: left;
+  font-family: "Noto Sans KR", "NanumSquare", "Nanum Barun Gothic", dotum,
+    sans-serif;
+}
+
+.symbol-box {
+  display: flex;
+  border-bottom: 1px solid #dfdfdf;
+  margin-bottom: 2em;
+  padding: 1em 1em;
+}
+#symbol-box-silver {
+  border: none;
+}
+
+.symbol-box > img {
+  margin-right: 1em;
+}
+
+.symbol-box > div > p {
+  font-size: 15px;
+  margin-bottom: 2em;
+}
+
+.symbol-red {
+  width: 100px;
+  height: 120px;
+}
+.symbol-blue {
+  width: 100px;
+  height: 40px;
+}
+.symbol-silver {
+  width: 100px;
+  height: 20px;
+}
+
+.CI-mind {
+  margin-top: 2em;
+  background-color: #f6f6f6;
+  font-size: 20px;
+  text-align: left;
+  padding: 20px 25px;
+  border-left: 4px solid #005c9d;
+  border-bottom: 1px solid #dfdfdf;
+  font-family: "'Noto Sans KR', 'NanumSquare', 'Nanum Barun Gothic', dotum, sans-serif";
+}
+
+#symbol-mean {
+  display: flex;
   align-items: center;
-  position: relative;
+  border: none;
 }
 
-.introduction-article > div {
-  margin: 1em 2em;
+.introduction-CEO {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 5em 15em;
 }
 
-.introduction-article > p {
-  position: absolute;
-  bottom: 2em;
-  font-size: 2em;
+.introduction-CEO-title {
+  width: 100%;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #dfdfdf;
+  font-size: 36px;
+  color: #005c9d;
+  margin-bottom: 2em;
 }
 
-.introduction-article > img {
-  position: absolute;
-  bottom: 2em;
-  right: 2em;
-  width: 200px;
-  height: 100px;
+.CEO-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ceo-image {
+  width: 500px;
+  height: 600px;
+}
+
+.ceo-image > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.ceo-greetings {
+  width: 52%;
+  height: 100%;
+}
+
+.ceo-greetings > h1 {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.15;
+  margin: 0 0 40px;
+}
+
+.ceo-greetings > p {
+  font-weight: 400;
+  line-height: 1.75;
+  margin: 0 0 40px;
+}
+
+.ceo-greetings > h3 {
+  text-align: right;
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0px 0px 0px;
 }

@@ -24,13 +24,24 @@ const EducationIntroduction = () => {
         <div className="education-description-wrap">
           <div className="education-description-titles">
             <h1>금속교육 재료사업</h1>
-            <h4>
-              대한민국 대표 기술교육재료 제조업체,{" "}
-              <span>국제기능올림픽대회 공식후원사</span>
-            </h4>
+            <h4>대한민국 대표 기술교육재료 제조업체</h4>
           </div>
           <div className="education-description-top">
             <h1>사업소개</h1>
+            <div className="education-description-top-box">
+              <p>국제기능올림픽대회 공식후원사</p>
+              <a
+                href="https://meister.hrdkorea.or.kr/eng/main.do"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className="worlds-skills-logo"
+                  src={worldSkillsLogo}
+                  alt="worlds-skills-logo"
+                />
+              </a>
+            </div>
           </div>
 
           <section className="education-description-second">
@@ -89,23 +100,6 @@ const EducationIntroduction = () => {
           <section className="education-description-slider-wrap">
             <h1 className="education-subtitle">학교 교육자재 납품</h1>
             <LogoCarousel logoList={AcademyLogo} />
-          </section>
-
-          <section className="education-description-slider-wrap">
-            <h1 className="education-subtitle">
-              국제기능올림픽대회 공식후원사
-            </h1>
-            <a
-              href="https://meister.hrdkorea.or.kr/eng/main.do"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                className="worlds-skills-logo"
-                src={worldSkillsLogo}
-                alt="worlds-skills-logo"
-              />
-            </a>
           </section>
         </div>
       </section>

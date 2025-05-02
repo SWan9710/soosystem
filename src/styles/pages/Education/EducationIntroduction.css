@@ -57,10 +57,6 @@
   border-bottom: 3px solid #1e1e1e;
 }
 
-.education-description-titles > h4 > span {
-  color: #005c9d;
-}
-
 .education-description-top {
   border-bottom: 1px solid #dfdfdf;
   padding: 1em 0;
@@ -68,6 +64,27 @@
   color: #005c9d;
   display: flex;
   align-items: flex-end;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.education-description-top > h1 {
+  margin-right: 1em;
+  width: 11%;
+}
+
+.education-description-top-box {
+  display: flex;
+  font-size: 16px;
+  color: #333;
+  align-items: end;
+}
+
+.worlds-skills-logo {
+  width: 80px;
+  height: 100px;
+  transform: translateY(20px);
+  margin-left: 2em;
 }
 
 .education-description-top > p {
@@ -132,9 +149,4 @@
 
 .education-description-slider-wrap {
   margin-top: 5em;
-}
-
-.worlds-skills-logo {
-  width: 300px;
-  height: 200px;
 }
