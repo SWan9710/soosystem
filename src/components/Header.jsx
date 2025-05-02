@@ -91,9 +91,6 @@ const Header = () => {
               <li>
                 <Link to="/metal/performance">실적</Link>
               </li>
-              <li>
-                <Link to="/metal/process">공정</Link>
-              </li>
             </ul>
           </li>
 
