@@ -43,18 +43,21 @@
 
 .metal-description-wrap {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 5em 15em;
-  margin: 10em 0;
 }
 
 .metal-description-title {
   border-bottom: 3px solid #1e1e1e;
   margin: 2em 0;
   text-align: center;
-  font-size: 2em;
+  font-size: 32px;
   padding-bottom: 1em;
+}
+
+.metal-process-image {
+  border: 1px solid black;
 }
